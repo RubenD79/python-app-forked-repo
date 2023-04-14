@@ -434,3 +434,39 @@ ls
 git branch
 #1681432065
 touch Ruben-fork-testfile.txt
+#1681432101
+git add .
+#1681432126
+git commit -m "Pushing new file to forked repo"
+#1681432263
+git checkout -b new-feature
+#1681432272
+git status
+#1681432510
+cd ../
+#1681432513
+ls
+#1681432577
+git remote add upstream https://github.com/RubenD79/python-app-forked-repo.git 
+#1681432639
+ls
+#1681432964
+git pull upstream main
+#1681433203
+git branch -a
+#1681433261
+git status
+#1681434038
+git checkout main
+#1681434040
+ls
+#1681434057
+git remote -v
+#1681438275
+ls
+#1681438358
+cd mobaxterm
+#1681438361
+ls
+#1681438383
+git status
