@@ -336,3 +336,101 @@ ls
 touch file1-front-end-branch.txt
 #1681255610
 ls
+#1681255639
+git add .
+#1681255671
+git commit -m "file1-front-end-branch.txt"
+#1681255750
+touch file2-front-end-branch.txt
+#1681255852
+git add .
+#1681255933
+ls
+#1681255984
+git checkout main
+#1681256190
+git status
+#1681256214
+git merge front-end
+#1681256824
+clear
+#1681256829
+git status
+#1681256846
+main branch
+#1681257773
+git statues
+#1681257782
+git status
+#1681257810
+clear
+#1681257831
+touch file1-back-end-branch.txt
+#1681257834
+ls
+#1681257879
+git add .
+#1681257888
+git status
+#1681258055
+git checkout main
+#1681258169
+git status
+#1681258299
+git checkout main
+#1681258628
+clear
+#1681255019
+git branch -a
+#1681258635
+git branch -r
+#1681259044
+git init
+#1681259150
+git checkout Branchname
+#1681259257
+git checkout main
+#1681259481
+git checkout RubenD79
+#1681259497
+git checkout Dario
+#1681259521
+git checkout RubenD79/Dario
+#1681259570
+git checkout back-end
+#1681259582
+pwd
+#1681259585
+ls
+#1681259639
+git checkout -b main
+#1681260005
+git status
+#1681260229
+git branch -d front-end
+#1681260253
+git branch -a
+#1681260449
+git status
+#1681263722
+pwd
+#1681263731
+git remote -v
+#1681263952
+git remote add origin https://sample 
+#1681264068
+git remote rm origin
+#1681264077
+remote -v 
+#1681264143
+git remote add origin
+#1681264152
+git pull
+#1681431787
+pwd
+#1681431792
+ls
+#1681431846
+git branch
+#1681432065
+touch Ruben-fork-testfile.txt
