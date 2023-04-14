@@ -470,3 +470,25 @@ cd mobaxterm
 ls
 #1681438383
 git status
+#1681438400
+git add .
+#1681438443
+git commit -m "Hello"
+#1681438465
+git push origin new feature
+#1681438518
+git push origin new-feature
+#1681438537
+git pull
+#1681438556
+git remote -v
+#1681438625
+git remote add origin https://github.com/RubenD79/python-app-forked-repo.git
+#1681438638
+git remote -v
+#1681438656
+git push origin new-feature
+#1681438827
+ls
+#1681438855
+touch forkfile2 
